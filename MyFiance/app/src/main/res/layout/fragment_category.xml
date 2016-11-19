@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.myfinance.CategoryFragment">
+
+    <TextView
+        android:id="@+id/lblCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lblCategory"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="2dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <EditText
+        android:id="@+id/txtCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="2dp"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/btnAddCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="2dp"
+        android:drawableLeft="@mipmap/quarantine"
+        android:text="@string/btnAddCategory" />
+
+    <ListView
+        android:id="@+id/lstCategory"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:choiceMode="none"
+        android:descendantFocusability="beforeDescendants" />
+
+</LinearLayout>
+

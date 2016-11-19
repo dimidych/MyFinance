@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Статистика расходов</string>
+
+    <string name="title_section1">Трата</string>
+    <string name="title_section2">Категория</string>
+    <string name="title_section3">Итоги</string>
+    <string name="title_section4">О программе</string>
+
+    <string name="navigation_drawer_open">Развернуть</string>
+    <string name="navigation_drawer_close">Свернуть</string>
+
+    <string name="lblCategory">Категория</string>
+    <string name="cmbCategory">Выберите категорию</string>
+    <string name="lblExpense">Трата</string>
+    <string name="lblExpenseName">Наименование</string>
+    <string name="btnAddExpense">Добавить трату</string>
+    <string name="btnAddCategory">Добавить категорию</string>
+    <string name="lblFrom">С:</string>
+    <string name="lblTo">По:</string>
+    <string name="btnShowTotals">Итоги</string>
+    <string name="swcCategorized">Показывать по категориям</string>
+    <string name="lblEmail">dimidych@gmail.com</string>
+    <string name="lblAuthor">Автор : Кожомин Дмитрий</string>
+    <string name="lblEula">(С) Все права защищены</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_ok">OK</string>
+
+    <string name="Food">Еда</string>
+    <string name="House">Коммуналка</string>
+    <string name="Fuel">Топливо</string>
+    <string name="Tax">Налоги</string>
+    <string name="Entertainment">Развлечения</string>
+    <string name="Other">Другое</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
